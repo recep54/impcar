@@ -18,7 +18,7 @@ class JapansController < ApplicationController
     require 'headless'
 
     def connection
-  @browser = Headless.new
+  @browser = Watir::Browser.new :chrome, headless: true
   # @browser.goto "https://auc.japonictrade.com/auctions/?p=project/findlots&s&ld"
   @browser.goto"http://encheres.clubimport.fr/auctions/?p=project/lot&id=550986806&s"
   mail = @browser.text_field(id: "usr_name") # select barre de recherche
