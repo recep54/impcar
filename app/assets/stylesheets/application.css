@@ -12,4 +12,38 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
+
+.b-goods-f__descr {
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.b-goods-f__descr-title {
+    color: #222222;
+    font-weight: 400;
+    padding-left: 30px;
+    position: relative;
+}
+
+.b-goods-f__descr-info {
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+
+
+#cercle {
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: green;
+}

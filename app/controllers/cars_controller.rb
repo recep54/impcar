@@ -7,6 +7,9 @@ class CarsController < ApplicationController
     @cars = Car.all
   end
 
+  def home
+
+  end
   # GET /cars/1
   # GET /cars/1.json
   def show
